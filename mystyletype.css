@@ -1,0 +1,20 @@
+/* anime. */
+
+/* HEADER */
+h1 {
+    font-family: 'Deacon Test';
+    text-align: center;
+    font-size: 20x;
+    border-color: black;    
+}
+ /* COLOR */
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+body {
+    font-family: Gilroy ExtraBold;
+    font-variant: ExtraBold;
+}
