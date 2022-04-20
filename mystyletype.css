@@ -26,5 +26,6 @@ body {
 
 @font-face {
     font-family: 'gilroy';
-    src: url("/fonts/GILROY-LIGHT.otf");
+    src: url(GILROY-LIGHT.otf) format("gilroy"), url(DeaconTest-Bold);
+        
 }
