@@ -20,4 +20,11 @@ a:link, a:visited,  a:hover, a:active
 body {
     font-family: Gilroy ExtraBold;
     font-variant: ExtraBold;
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url("/fonts/GILROY-LIGHT.otf");
 }
