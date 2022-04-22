@@ -1,17 +1,18 @@
 <!DOCTYPE html>
     <html>
   
-        <title> Daniel TRAN - Portfolio</title>
+        <title> Daniel TRAN - A Censored Future</title>
         <link rel="stylesheet" href="mystyletype.css">
         <meta charset="UTF-8">
-       
+     
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        
 
     <!-- CSS STYLES START -->
     
     <style>
     .content {padding:20px;}
+
+    /* Body Paragraph */
 
     @font-face {
         font-family: "Deacon Test";
@@ -29,17 +30,50 @@
     }
 
 
-        
-
-
-    /* Body Paragraph */
-
     body {
     background-color: #ffffff;
     padding: 20px;
    
 }   
+p {
+    
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
+}
+.center {
+    margin: left;
+    width: 50%;
+   
+}
 
+p.big {
+  line-height: 1.8;
+}
+
+.p2 {
+    padding: 5px;
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+  
+}
     
 
     
@@ -52,12 +86,27 @@
     background: #ffffff;
     color: rgb(0, 0, 0);
     font-size: 25px;
-    position: sticky;
+   
     top: 0;
     overflow: hidden;
     margin: 40px;
-  
+}
 
+    .header2 {
+    padding: 1px;
+    font-family: Gilroy ExtraBold;
+    font-variant: ExtraBold;
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+   
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
 }
 
     .header a.logo {
@@ -116,7 +165,7 @@
 }
 
     .container:hover .image {
-    opacity: .2;
+    opacity: 10;
 }
 
     .container:hover .middle {
@@ -163,7 +212,7 @@
     .column {
     -ms-flex: 25%; /* IE10 */
     flex: 5%;
-    max-width: 69%;
+    max-width: 25%;
     padding: 0 10px;
 }
     /* Clear floats after rows */ 
@@ -182,9 +231,34 @@
     .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 50%;
+    width: 25%;
+}
+    .img {
+        height: 100px;
+    
+    vertical-align: middle;
+    }
+    /* Resizing Stuff */
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+    .column {
+    width: 100%;
+    }
 }
 
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+    .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
 
 
     </style>
@@ -201,8 +275,7 @@
 
     <div class="header">
         <a style="text-decoration:none">DANIEL TRAN</a>
-       
-
+      
         <div class="header-right2">
             <a style="text-decoration:none" href="Contacts.html">Contacts</a>
         </div>
@@ -223,108 +296,42 @@
     <!-- Portfolio Gallery Grid -->
    
     <!-- COLUMN 01 -->
-    <div class="row">
-    <div class="column">
-    
-     <!-- Image One -->   
-     
-    <div class="container">
-        
-    <img src="images/Project_01_GIF.jpg" class="image" style="width:100%">
-     
-   
-    <div class="middle">
-    <div class="text"><a style="text-decoration:none"=" href="DATASELFIES.html">DATA SELFIES </a></div>
-</div>
-</div>
-        
-        
-
-     <!-- Image Two -->   
-    <div class="container">
-    <img src="images/Project_02_GIF.jpg" class="image" style="width:100%">
-    <div class="middle">
-    <div class="text"><a style="text-decoration:none"=" href="MISAPOSTERS.html">MiSA Group Posters</a></div>
-        </div>
-        </div>
-
-    <!-- Image Three -->
-
-    <div class="container">
-        <img src="images/Project_02.jpg" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="MISAHighlights.html">MiSA Group Highlights</a></div>
-            </div>
-            </div>
-
-
-    <!-- Image Four -->
-
-    <div class="container">
-        <img src="images/nESO.gif" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="IdolHell.html">IDOL HELL</a></div>
-            </div>
-            </div>
-
-
-     <!-- Image Five -->
-
-
-     <div class="container">
-        <img src="images/Project_05_GIF.jpg" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="Photography.html">Photography Collection</a></div>
-            </div>
-            </div>
-
-  
-
-    <!-- Image Six -->
-    <div class="container">
-        <img src="images/Project_03_GIF.jpg" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="UMANIME.html">UMANIME Posters</a></div>
-            </div>
-            </div>
-    
-    
  
-
-      <!-- Image Seven -->
-      <div class="container">
-        <img src="images/Project_04_GIF.jpg" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="NBA2K.html">NBA2K$$ Adbuster</a> </div>
-            </div>
-            </div>
-     
    
 
-     <!-- Image Eight -->
-
-     <div class="container">
-        <img src="images/Daniel_Tran_Future_Bad_Meme.gif" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="A Censored Future.html">A Censored Future</a></div>
-            </div>
-            </div>
-
+    <!-- Text -->
    
 
-    <!-- Image Nine -->
+    <div class="header2">
+       A Censored Future
+   
+    </div>
 
-    <!-- <div class="container">
-        <img src="images/Project_07.jpg" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text"><a style="text-decoration:none"=" href="https://www.instagram.com/tryhardtran">Custom Emotes</a></div>
-            </div>
-            </div>
-    -->
+ 
+        <p class="big">
+            The idea of this project was to design something to represents a bad future. So in this case, I have decided to depict a bad future would be a future where mostly everything is censored, stripped of free will.<br>
+            I used the game of Cyberpunk 2077 as a main subject because it plays on a vintage cyberpunk aesthetic and I thought it would be funny to play on the cyberpunk theme and futuristic nature. Future and cyberpunk.
+        
 
+
+           
+        </p>
+        
+     <div class="center">
+    </div>
+    <div class="row">
+        <div class="container">
+        
+         <!-- Image One -->   
+      
+      
+        <img src="images/Daniel_Tran_Future_Bad_Meme.gif" class="image" style="width:100%"> <br>
+      
+       
      
     
-    </div>
+       
+        </div>
     
     <!-- COLUMN 02 -->
     
