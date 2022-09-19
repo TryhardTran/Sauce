@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+    <html>
+  
+        <title> Daniel TRAN - Hypertexts</title>
+        <link rel="stylesheet" href="mystyletype.css">
+        <meta charset="UTF-8">
+       
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- CSS STYLES START -->
+    
+    <style>
+    .content {padding:20px;}
+
+    @font-face {
+        font-family: "Deacon Test";
+        src: url(DeaconTest-Bold.otf);    
+    }
+    
+    @font-face {
+        font-family: "Gilroy Light";
+        src: url(GILROY-LIGHT.OTF);    
+    }
+
+    @font-face {
+        font-family: "Gilroy ExtraBold";
+        src: url(GILROY-EXTRABOLD.OTF);    
+    }
+
+    /* Body Paragraph */
+
+    body {
+    background-color: #ffffff;
+    padding: 20px;
+   
+}   
+p {
+    
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
+}
+.center {
+    margin: left;
+    width: 50%;
+   
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+.p2 {
+    padding: 5px;
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+  
+}
+    
+
+    
+    /* Header CSS */
+       
+    .header {
+    padding: 5px;
+    font-family: 'Deacon Test';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+   
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+}
+
+    .header2 {
+    padding: 1px;
+    font-family: Gilroy ExtraBold;
+    font-variant: ExtraBold;
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
+}
+
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    .header a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+    .header-right {
+    float: right;
+    padding-right: 30px;
+}
+
+    .header-right2 {
+    float: right;
+}
+
+    .content {
+    margin: top 100px;
+    
+    
+}
+
+        
+    /* BOXES */
+
+    /* OVERLAY */
+
+    .container {
+    position: sticky;
+}
+
+    .image {
+    opacity: 2;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+    .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .container:hover .image {
+    opacity: 10;
+}
+
+    .container:hover .middle {
+    opacity: 10;
+}
+    /* TEXT BOX */
+    .text {
+   
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+   
+}
+    * {
+    box-sizing: border-box;
+    }
+    
+    .main {
+    max-width: 2000px;
+    margin: auto;
+    }
+    
+  
+  
+
+    /* ROW */
+    .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+
+    /* TEXT ALLIGNMENT */
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+    padding: 20px;
+}
+
+    /* Create four/or various equal columns that floats next to each other */
+    .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 5%;
+    max-width: 25%;
+    padding: 0 10px;
+}
+    /* Clear floats after rows */ 
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* Content */
+    .content {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 25%;
+}
+    .img {
+        height: 100px;
+    
+    vertical-align: middle;
+    }
+    /* Resizing Stuff */
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+    .column {
+    width: 100%;
+    }
+}
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+    .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+
+    </style>
+
+    <!-- CSS STYLES END -->
+
+
+
+    <body>
+
+    <!-- header START -->
+        
+    
+
+    <div class="header">
+        <a style="text-decoration:none">DANIEL TRAN</a>
+      
+        <div class="header-right2">
+            <a style="text-decoration:none" href="Ground.html">On Ground</a>
+        </div>
+      
+        <div class="header-right">
+        <a style="text-decoration:none" href="ABOUTME2.html" >About Me</a>
+        </div>
+        
+        <div class="header-right">
+        <a style="text-decoration:none" href="ProjectJuan.html">Project One Texts</a>
+        </div>
+    </div>    
+
+    <!-- header END -->
+
+    </body>
+    
+    <!-- Portfolio Gallery Grid -->
+   
+    <!-- COLUMN 01 -->
+ 
+   
+
+    <!-- Text -->
+   
+
+    <div class="header2">
+       <u>Project One Text </u>
+   
+    </div>
+
+    <div class="header2">
+        Exercise 1: September 19 <br>
+    </div>
+
+     
+
+    <div class="header2">
+        
+        Danger of a single story. <br>
+    </div>
+
+ 
+    
+    <p> <u>Words/Phrases/Ideas</u> </p>
+
+        <p class="big">
+           
+            -Vulnerable in face of a story. <br>
+            -Books have foreigners, cannot identify. <br>
+            -Mental shift in literature. <br>
+            -Pity of the poor. <br>
+            -Did not identify as African when coming to America. <br>
+            -Brought into a single story of Mexican, show of people as one thing, over and over. <br>
+            -Single stories create stereotypes, make the one story the only story. <br>
+            -Robs people of dignity. <br>
+            -Stories can break and repair people. <br>
+
+        </p>
+  
+<p> <u>Summary</u> </p>
+
+        <p class="big">
+            The dangers of a single story video demonstrate how a story can present an unwarranted contextualization of many people, presenting tropes and stereotypes of another, to create and define one story as the significant one. <br>
+            A story being able to reshape people for either the better or the worse. For myself, it makes sense how dangerous one single story can portray a person or a group similar to how rumors would be, it either be used to represent someone or to establish someone as this entity. <br>
+        </p>
+   
+
+    <div class="header2">
+        
+        Four Corners  <br>
+    </div>
+
+    <p> <u>Words/Phrases/Ideas</u> </p>
+
+    <p class="big">
+           
+        -Progress is ideological. Human events are disjointed.  <br>
+        -History is pluralistic and partial. The past in the present. <br>
+        Marxist Counter Narrative  <br>
+        -The story of graphic design is told through its relations to labor and class struggle.  <br>
+        -Design heroes as geniuses.  <br>
+        A people’s history counter Narrative  <br>
+        -Design that rages.  <br>
+        -Maintain poor people’s dignity, did not go to elite school etc. Subcultures into capitalism. <br>
+        Decolonized Counter Narrative  <br>
+        -Delinking capitalist and western centrality, does not mean diverse, contemporary referencing to the past.  <br>
+        Intersectional Counter Narrative <br>
+        -Gender Politics and queer theory interrupt conventional history. <br>
+        -Make history illegible, dismantle legacy systems.  <br>
+        -Counter Narratives makes who designs and the context behind it. <br>
+
+        </p>
+
+        <p> <u>Summary</u> </p>
+
+        <p class="big">
+            The four corners present four different variants of different narratives when it comes to graphic design. To incorporate many different narratives such as making heroes, highlighting the people’s rage, several types of politics and the intent of designers that make the designs. 
+        </p>
+
+        
+    <div class="header2">
+        
+        Is there a canon is graphic design?  <br>
+    </div>
+    <p> <u>Words/Phrases/Ideas</u> </p>
+
+    <p class="big">
+           
+        -A canon is a basis for judgment, a standard, a criterion, and an authoritative list.  <br>
+        -Canon is under debate. The study of graphic design might have produced its own canon.  <br>
+        -The first book deals with prehistory and discussions and reproductions of fine art with graphic design.  <br>
+        -Second book deals with posters being more of the prominent and important medias in graphic design and its history. Posters being a means of expression and communication, explore graphic design and typography as a serious creative media.   <br>
+        -Third book is like a survey, more concerned with the images and not the artist. Focus on the formal, emblematic visual characteristics of a design period.   <br>
+        -Four books demonstrate the necessity for understanding the past, to understand the legacy of beautiful form and effective communication.  <br>
+        -Fifth book explores a wide scope of the field of visual communication rather than graphic design <br>
+        -Barely any women in the canon. Who makes decisions, or what it is based on.  <br>
+        -A canon creates heroes, superstars, and iconographies. A canon reduces a lot of material to a smaller and manageable package.  <br>
+        
+
+        </p>
+
+        <p> <u> Summary</u></p>
+        <p class="big">
+            The reading presents a canon which is used to describe what graphic design really is, it demonstrates a history on how graphic design is formulated and the general uses it can bring. Graphic design can be seen as a simple concept while it can be explored in many ways different from the norm. 
+        </p>
+
+
+        <div class="header2">
+            Exercise 2: September 26 <br>
+        </div>
+
+
+
+
+</html>
