@@ -10,12 +10,6 @@ h1 {
     font-style: normal; 
     
 }
- /* COLOR */
-a:link, a:visited,  a:hover, a:active
-{
-    color: #000000;
-    text-decoration: none;
-}
 
 body {
     font-family: Gilroy ExtraBold;
