@@ -13,11 +13,25 @@ h1 {
 }
 
 body {
-    font-family: Gilroy ExtraBold;
-    font-variant: ExtraBold;
+    font-family: Gilroy;
+    font-variant: ExtraBold; 
     font-weight: normal;
     font-style: normal; 
     background-color: yellow;
     
 }
 
+@font-face {
+    font-family: "Deacon Test";
+    src: url(DeaconTest-Bold.otf);    
+}
+
+@font-face {
+    font-family: "Gilroy Light";
+    src: url(GILROY-LIGHT.OTF);    
+}
+
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    src: url(GILROY-EXTRABOLD.OTF);    
+}
