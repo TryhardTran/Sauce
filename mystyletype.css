@@ -3,11 +3,12 @@
 /* HEADER */
 h1 {
     font-family: 'Deacon Test';
-    text-align: center;
+    text-align: left;
     font-size: 20x;
     border-color: black;    
     font-weight: normal;
     font-style: normal; 
+    
     
 }
 
@@ -16,5 +17,7 @@ body {
     font-variant: ExtraBold;
     font-weight: normal;
     font-style: normal; 
+    background-color: yellow;
+    
 }
 
