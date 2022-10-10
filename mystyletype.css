@@ -35,3 +35,38 @@ body {
     font-family: "Gilroy ExtraBold";
     src: url(GILROY-EXTRABOLD.OTF);    
 }
+
+/* First Video */
+.pos_01 {
+    position: sticky;
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    align-self: auto;  
+
+
+}
+/* Second Video */
+.pos_02 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 450px;
+    top: 80px;
+   
+   
+}
+
+/* Third Video */
+.pos_03 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    left: 900px;
+    padding: 20px;
+    top: 120px
+  
+   
+
+
+}
