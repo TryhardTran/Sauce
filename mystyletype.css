@@ -35,6 +35,8 @@ body {
     src: url(GILROY-EXTRABOLD.OTF);    
 }
 
+/* POSITIONING VIDEOS*/
+
 /* First Video */
 .pos_01 {
     position: sticky;
