@@ -63,3 +63,14 @@ body {
     padding: 20px;
     top: 25px
 }
+
+/* Fourth  */
+.pos_04 {
+    position: fixed;
+    width: 40%;
+    height: 100px;
+    left: 40%;
+    right: 0;
+    padding: 20px;
+    top: 25px
+}
