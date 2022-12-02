@@ -74,3 +74,5 @@ body {
     padding: 20px;
     top: 25px
 }
+
+/* Static = Default, Relative = Positioned relative to the Default Position or beside it. Fixed = Stay in the same place. Absolute = Overlapping. Sticky = stays with the mouse scroll.
