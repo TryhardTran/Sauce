@@ -55,7 +55,7 @@ body {
 }
 /* Third Video */
 .pos_03 {
-    position: relative;
+    position: absolute;
     width: 30%;
     height: 500px;
     left: 975px;
