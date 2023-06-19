@@ -14,7 +14,7 @@ body {
     font-variant: ExtraBold; 
     font-weight: normal;
     font-style: normal; 
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     
 }
 /*FONTS for each Browser*/
@@ -34,6 +34,9 @@ body {
 }
 
 /* POSITIONING VIDEOS*/
+p  {
+    font-size: 30px;
+    }
 
 /* First Video */
 .pos_01 {
@@ -49,7 +52,7 @@ body {
     position: relative;
     width: 30%;
     height: 500px;
-    left: 450px;
+    left: 70%;
     right: 0;
     top: 80px;   
 }
@@ -67,12 +70,12 @@ body {
 /* Fourth  */
 .pos_04 {
     position: fixed;
-    width: 40%;
+    width: 80%;
     height: 100px;
-    left: 40%;
+    left: 48%;
     right: 0;
     padding: 20px;
-    top: 25px
+    top: 50%
 }
 
 /* Static = Default, Relative = Positioned relative to the Default Position or beside it. Fixed = Stay in the same place. Absolute = Overlapping. Sticky = stays with the mouse scroll.
