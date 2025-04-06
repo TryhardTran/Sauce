@@ -49,6 +49,9 @@ body {
 body {
 background-color: #ffffff;
 padding: 20px;
+cursor: url("Untitled-1.png"), auto;
+
+
 
 }   
 
@@ -196,11 +199,6 @@ margin-top: 8px;
 vertical-align: middle;
 width: 50%;
 }
-
-body {
-    cursor: url("Untitled-1.png"), auto;
-}
-
 
 
 
