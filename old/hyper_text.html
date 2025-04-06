@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+    <html>
+  
+        <title> Daniel TRAN - Hypertexts</title>
+        <link rel="stylesheet" href="mystyletype.css">
+        <meta charset="UTF-8">
+       
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- CSS STYLES START -->
+    
+    <style>
+    .content {padding:20px;}
+
+    @font-face {
+        font-family: "Deacon Test";
+        src: url(DeaconTest-Bold.otf);    
+    }
+    
+    @font-face {
+        font-family: "Gilroy Light";
+        src: url(GILROY-LIGHT.OTF);    
+    }
+
+    @font-face {
+        font-family: "Gilroy ExtraBold";
+        src: url(GILROY-EXTRABOLD.OTF);    
+    }
+
+    /* Body Paragraph */
+
+    body {
+    background-color: #ffffff;
+    padding: 20px;
+   
+}   
+p {
+    
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
+}
+.center {
+    margin: left;
+    width: 50%;
+   
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+.p2 {
+    padding: 5px;
+    font-family: 'Gilroy Light';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+  
+}
+    
+
+    
+    /* Header CSS */
+       
+    .header {
+    padding: 5px;
+    font-family: 'Deacon Test';
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+   
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+}
+
+    .header2 {
+    padding: 1px;
+    font-family: Gilroy ExtraBold;
+    font-variant: ExtraBold;
+    text-align: left;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+    top: 0;
+    overflow: hidden;
+    margin: 40px;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 5px;
+}
+
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    .header a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+    highlight a:hover{
+    background-color: rgb(255, 0, 149);
+    color: rgb(0, 0, 0);
+    }
+
+    .header-right {
+    float: right;
+    padding-right: 30px;
+}
+
+    .header-right2 {
+    float: right;
+}
+
+    .content {
+    margin: top 100px;
+    
+    
+}
+
+        
+    /* BOXES */
+
+    /* OVERLAY */
+
+    .container {
+    position: sticky;
+}
+
+    .image {
+    opacity: 2;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+    .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .container:hover .image {
+    opacity: 10;
+}
+
+    .container:hover .middle {
+    opacity: 10;
+}
+    /* TEXT BOX */
+    .text {
+   
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+   
+}
+    * {
+    box-sizing: border-box;
+    }
+    
+    .main {
+    max-width: 2000px;
+    margin: auto;
+    }
+    
+  
+  
+
+    /* ROW */
+    .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+
+    /* TEXT ALLIGNMENT */
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+    padding: 20px;
+}
+
+    /* Create four/or various equal columns that floats next to each other */
+    .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 5%;
+    max-width: 25%;
+    padding: 0 10px;
+}
+    /* Clear floats after rows */ 
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /* Content */
+    .content {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 25%;
+}
+    .img {
+        height: 100px;
+    
+    vertical-align: middle;
+    }
+    /* Resizing Stuff */
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+    .column {
+    width: 100%;
+    }
+}
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+    .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+
+    </style>
+
+    <!-- CSS STYLES END -->
+
+
+
+    <body>
+
+    <!-- header START -->
+        
+    
+
+    <div class="header">
+        <a style="text-decoration:none">DANIEL TRAN</a>
+      
+        <div class="header-right2">
+            <a style="text-decoration:none" href="ground.html">On Ground</a>
+        </div>
+      
+        <div class="header-right">
+        <a style="text-decoration:none" href="aboutme2.html" >About Me</a>
+        </div>
+        
+     
+    </div>    
+
+    <!-- header END -->
+
+    </body>
+    
+    <!-- Portfolio Gallery Grid -->
+   
+    <!-- COLUMN 01 -->
+ 
+   
+
+    <!-- Text -->
+   
+
+
+   <!-- Header One -->
+   <div class="header2">
+    MY PEERS <br>
+    </div>
+
+    <p>
+        <highlight><a style="text-decoration:none" href="https://lunapi.design/">LENA</a></highlight>
+    </p>
+ 
+    <p>
+        <highlight><a style="text-decoration:none" href="https://hellotaeran.com">TAERAN</a></highlight>
+    </p>
+
+    <p>
+        <highlight><a style="text-decoration:none" href="https://kdparkdesign.neocities.org/">KYUNDEOK</a></highlight>
+    </p>
+ 
+    <div class="header2">
+       Project One Texts <br>
+    </div>
+
+    <p>
+        <highlight><a style="text-decoration:none" href="ProjectJuan.html"> TEXT A - J</a></highlight>
+    </p>
+   
+    <div class="header2">
+        Lauren Schwulst Reading <br>
+     </div>
+
+     <p>
+        <highlight><a style="text-decoration:none" href="exercisethree.html"> Link</a></highlight>
+    </p>
+
+
+    <div class="header2">
+        CSS Positioning <br>
+     </div>
+
+
+    <div class="header2">
+        The Box of Sand <br>
+     </div>
+
+   
+
+    
+</html>
